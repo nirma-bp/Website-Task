@@ -10,6 +10,7 @@ import Home from "./Pagess/Home";
 import OfficesWorldWide from "./Pagess/OfficesWorldWide";
 import ForBusinessInquiries from "./Pagess/ForBusinessInquiries";
 import LastFooterPart from "./Pagess/LastFooterPart";
+import NotFound from "./Pagess/NotFound";
 
 function App() {
   return (
@@ -21,7 +22,7 @@ function App() {
         <Route path="/contact" element={<Contact />} />
         <Route path="/about" element={<About />} />
         <Route path="/blog" element={<Blog />} />
-        {/* <Route path="*" element={<NotFound />} /> */}
+        <Route path="*" element={<NotFound />} />
       </Routes>
       <Footer />
       <OfficesWorldWide />
