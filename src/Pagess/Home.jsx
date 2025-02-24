@@ -10,7 +10,6 @@ function Home() {
   return (
     <div>
       <HeroSection />
-      <SectionTwo />
       <WhoWeAre
         para="We belive that simplicity and client focus , combined with extensive
           theoritical knowledge and practical experience , are the key
