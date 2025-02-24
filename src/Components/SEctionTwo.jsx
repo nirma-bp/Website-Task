@@ -36,9 +36,12 @@ function SectionTwo() {
             />
             <div className="absolute inset-0 bg-gradient-to-t from-gray-900 to-transparent opacity-50 rounded-xl"></div>
           </div>
-          Break Bulk shipping of{" "}
-          <span className="font-bold">140MT steel coil</span> from Tianjin to
-          Karachi on chartered VSL MV KSL HENGYANG.
+          <p className="mt-4 text-white text-center text-lg font-medium leading-relaxed">
+            Break Bulk shipping of{" "}
+            <span className="font-bold">2000 units CO2 tanks</span>
+            (202 CBM/42MT) from Shanghai to Karachi on chartered VSI MV HONG
+            BO6.
+          </p>
         </div>
       </div>
     </div>

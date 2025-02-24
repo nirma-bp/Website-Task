@@ -3,7 +3,7 @@ import logo from "../images/logo.png";
 
 function LogoSection({ para, headingtwo }) {
   return (
-    <div className=" p-3 flex bg-pink-50 flex-col items-center text-center rounded-lg shadow-xl bg-white transition-transform hover:scale-105 duration-300">
+    <div className="mx-7 md:mx-0 p-3 flex bg-pink-50 flex-col items-center text-center rounded-lg shadow-xl bg-white transition-transform hover:scale-105 duration-300">
       <img
         src={logo}
         alt="Logo"

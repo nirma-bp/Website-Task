@@ -4,7 +4,7 @@ import LogoSection from "./LogoSection";
 function LogoRender() {
   return (
     <div className="">
-      <div className="grid grid-cols-1 bg-gray-50 md:grid-cols-2 lg:grid-cols-3 gap-16 mt-16">
+      <div className="grid grid-cols-1 bg-gray-50 md:grid-cols-3 gap-16 mt-16">
         <LogoSection
           headingtwo="our solution"
           para="  We have come a long way to develop our logistics skills at par with
@@ -22,7 +22,7 @@ function LogoRender() {
         />
       </div>
 
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-16 mt-16">
+      <div className="grid grid-cols-1 md:grid-cols-3 gap-16 mt-16">
         <LogoSection
           headingtwo="Friendly people"
           para=" We are having some of the best minds and talents as a team of great experienced professional and skilled people who give their best efforts to design and manufacture the best plan of our needs according to your choices"
