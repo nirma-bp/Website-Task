@@ -1,8 +1,12 @@
 import React from 'react'
+import SpecialServices from "./SpecialServices"
 
 function Services() {
   return (
-    <div>Services</div>
+    <div>
+ <SpecialServices/>
+ 
+    </div>
   )
 }
 

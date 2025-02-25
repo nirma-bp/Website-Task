@@ -14,6 +14,7 @@ function NotFound() {
       >
         Go Back Home
       </Link>
+      
     </div>
   );
 }
