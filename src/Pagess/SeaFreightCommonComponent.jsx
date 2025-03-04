@@ -4,7 +4,7 @@ function SeaFreightCommonComponent({ hTwo, p  ,hOne}) {
   const [message, setMessage] = useState();
   return (
     <div>
-      <div className="max-w-4xl rounded-lg p-8 border-l-4 border-pink-500 mt-6">
+      <div className="max-w-4xl rounded-lg  mt-6">
         <h1 className="text-2xl font-bold p-3">{hOne}</h1>
         <label className="block text-gray-700 font-semibold mb-3 ">
           Message:

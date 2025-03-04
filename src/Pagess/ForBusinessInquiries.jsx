@@ -1,4 +1,8 @@
 import React, { useState } from "react";
+import imgone from "../images/imgFour.png";
+import img2 from "../images/imgThree.png";
+import img3 from "../images/imgTwo.jpg";
+import img1 from "../images/imgone.png";
 
 function ForBusinessInquiries() {
   const [name, setName] = useState("");
@@ -14,23 +18,32 @@ function ForBusinessInquiries() {
 
   return (
     // <div className="flex w-full justify-center items-center  bg-gray-200 p-4">
-    <div className="w-full flex flex-col md:flex-row justify-center items-center  bg-gray-300  pb-20">
+    <div className="w-full block lg:flex  justify-center items-center  bg-gray-300  pb-20">
       {/* First Div */}
-      <div className="pt-9 w-full md:w-1/2  bg-gray-300  gap-5 flex flex-col justify-center items-center">
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-2 mt-3">
-          <div className="border-2 border-gray-400 rounded-lg w-46 h-40"></div>
-          <div className="border-2 border-gray-400 rounded-lg w-46 h-40"></div>
+      <div className="pt-9 w-full lg:w-1/2 lg:mt-12 bg-gray-300 block  lg:flex flex-col justify-center items-center">
+        <div className="lg:flex block p-9 gap-4 bordder-4 border-blue-900">
+          <div className="rounded-lg w-full  lg:w-1/2 h-auto">
+            <img src={imgone} alt="" className="rounded-lg" />
+          </div>
+          <div className=" rounded-lg  w-full mt-9 lg:mt-0  lg:w-1/2  h-auto">
+            <img src={img1} alt="" className="rounded-lg" />
+          </div>
         </div>
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-2 mt-8">
-          <div className="border-2 border-gray-400 rounded-lg w-46 h-40"></div>
-          <div className="border-2 border-gray-400 rounded-lg w-46 h-40"></div>
+
+        <div className="lg:flex block p-9 gap-4 bordder-4 border-blue-900">
+          <div className="rounded-lg w-full  lg:w-1/2 h-auto">
+            <img src={img2} alt="" className="rounded-lg" />
+          </div>
+          <div className=" rounded-lg w-full  mt-9 lg:mt-0  lg:w-1/2  h-auto">
+            <img src={img3} alt="" className="rounded-lg" />
+          </div>
         </div>
       </div>
 
       {/* Form Section */}
       <form
         onSubmit={handleSubmit}
-        className="space-y-4 w-full md:w-1/2 mt-9 md:pt-24 px-4 lg:pr-5"
+        className="space-y-4 w-full lg:w-1/2 mt-9 md:pt-24 px-4 lg:pr-5"
       >
         <h1 className="text-2xl font-bold text-pink-800 mb-6 text-center">
           For Business Inquiries
